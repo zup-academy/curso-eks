@@ -91,7 +91,7 @@ Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista 
 
 ### completion: Quase pronto para execução
 
-A partir do projeto base disponível neste [link](), complete a implementação deixando um cluster EKS
+A partir do projeto base disponível neste [aqui](), complete a implementação deixando um cluster EKS
 up, seus Workers como "Ready" e apto a receberem cargas de trabalho.
 
 ### conventional: Cluster bom é cluster barato: O retorno
