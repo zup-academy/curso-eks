@@ -72,7 +72,9 @@ Kubernetes (diretriz da área) =).
 
 O que posso dizer dessa app é que será utilizada por nossos clientes internos e serve para executar algumas rotinas, como parsear alguns dados de leads. Não é algo ultra crítico, porque sempre que ela for executada, se auto atualizará e fará somente o necessário. 
 
-Neste link está a especificação da aplicação a ser executada: [link](playground/yamls/job.yaml)
+Neste link está a especificação da aplicação a ser executada: 
+
+https://raw.githubusercontent.com/zup-academy/curso-eks/master/playground/yamls/awesomebatchjob.yaml
 
 Ah, o time está com o budget curto para essa aplicação, seria legal se tivesse um custo bem acessível. 
 
@@ -103,7 +105,9 @@ O time de SRE recebeu essa solicitação, dessa vez, pelo time de people:
 Precisamos executar uma rotina que o fornecedor nos passou para validar alguns dados e me falaram que deveria ser em um Kubernetes, ou algo assim. 
 
 Essa rotina é executada poucas vezes durante o dia, e tem dia que nem executada é. O rapaz da TI do nosso 
-fornecedor enviou um link com o programa a ser executado, o link é esse: <LINK>
+fornecedor enviou um link com o programa a ser executado, o link é esse:
+
+https://raw.githubusercontent.com/zup-academy/curso-eks/master/playground/yamls/anotherawesomebatchjob.yaml
 
 Estamos otimizando os recursos aqui no setor e não dispomos de muito orçamento para essa atividade, então
 o que puder enxugar ai do seu lado, mande bala.
