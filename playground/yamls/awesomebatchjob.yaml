@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: awesomebatchjob
+spec:
+  ttlSecondsAfterFinished: 100
+  parallelism: 5
+  template:
+    spec:
+      containers:
+      - name: awesomebatchjob
+        image: perl
+        command: ["perl",  "-Mbignum=bpi", "-wle", "print bpi(2000)"]
+      restartPolicy: Never

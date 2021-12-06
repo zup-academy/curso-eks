@@ -72,7 +72,7 @@ Kubernetes (diretriz da área) =).
 
 O que posso dizer dessa app é que será utilizada por nossos clientes internos e serve para executar algumas rotinas, como parsear alguns dados de leads. Não é algo ultra crítico, porque sempre que ela for executada, se auto atualizará e fará somente o necessário. 
 
-Neste link está a especificação da aplicação a ser executada: <LINK>
+Neste link está a especificação da aplicação a ser executada: [link](playground/yamls/job.yaml)
 
 Ah, o time está com o budget curto para essa aplicação, seria legal se tivesse um custo bem acessível. 
 
@@ -87,12 +87,13 @@ MJ.
 
 Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista a solicitação acima. 
 
-[![Video: Cluster bom é cluster barato]()
+[[Video: Cluster bom é cluster barato]()
 
 ### completion: Quase pronto para execução
 
-A partir do projeto base disponível neste [aqui](), complete a implementação deixando um cluster EKS
-up, seus Workers como "Ready" e apto a receberem cargas de trabalho.
+A partir do projeto base disponível neste [aqui](playground/quase_pronto_para_execucao). 
+
+Complete a implementação deixando um cluster EKS "up", seus Workers como "Ready" e aptos a receberem cargas de trabalho.
 
 ### conventional: Cluster bom é cluster barato: O retorno
 

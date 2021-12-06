@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: anotherawesomebatchjob
+spec:
+  parallelism: 5
+  template:
+    spec:
+      containers:
+      - name: anotherawesomebatchjob
+        image: busybox
+        command: ["/bin/sh","-c"]
+        args: ["echo 'Another awesome batch job =)'; sleep $(shuf -i 5-10 -n 1)"]
+      restartPolicy: OnFailure
