@@ -3,6 +3,7 @@ kind: Job
 metadata:
   name: anotherawesomebatchjob
 spec:
+  ttlSecondsAfterFinished: 100
   parallelism: 5
   template:
     spec:
