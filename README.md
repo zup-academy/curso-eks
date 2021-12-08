@@ -13,51 +13,51 @@ A seguir você tem acesso a uma série de materiais teóricos que visam fornecer
 
 #### O que é eks
 
-[Video: O que é eks]()
+[Video: O que é eks](https://youtu.be/aC9NrrkhSQc)
 
 #### Workflow de criação de um cluster eks
 
-[Video: Workflow de criação de um cluster eks]()
+[Video: Workflow de criação de um cluster eks](https://youtu.be/qx_C2xBgyJg)
 
 #### Tipos de workers
 
-[Video: Tipos de workers]()
+[Video: Tipos de workers](https://youtu.be/v3aO9QuO_s4)
 
 #### O que é vpc
 
-[Video: O que é vpc]()
+[Video: O que é vpc](https://youtu.be/D4Fb2IAo3IE)
 
 ### O que é subnet
 
-[Video: O que é subnet]()
+[Video: O que é subnet](https://youtu.be/mMXA_PshNp0)
 
 ### O que é nat gateway
 
-[Video: O que é nat gateway]()
+[Video: O que é nat gateway](https://youtu.be/coTiUAxWUKQ)
 
 ### O que é internet gateway
 
-[Video: O que é internet gateway]()
+[Video: O que é internet gateway](https://youtu.be/liLx8WzT6qs)
 
 ### Criando uma vpc e subnets e outras coisinhas a mais
 
-[Video: Criando uma vpc e subnets e outras coisinhas a mais]()
+[Video: Criando uma vpc e subnets e outras coisinhas a mais](https://youtu.be/im9ozFQW0rU)
 
 ### Criando um cluster eks
 
-[Video: Criando um cluster eks]()
+[Video: Criando um cluster eks](https://youtu.be/2X5jeOFytG8)
 
 ### Adicionando workers gerenciados a um cluster
 
-[Video: Adicionando workers gerenciados a um cluster]()
+[Video: Adicionando workers gerenciados a um cluster](https://youtu.be/LAWEvu4mOBM)
 
 ### Adicionando workers auto gerenciados a um cluster
 
-[Video: Adicionando workers auto gerenciados a um cluster]()
+[Video: Adicionando workers auto gerenciados a um cluster](https://youtu.be/IS4vDByYFCU)
 
 ### Adicionando workers fargate a um cluster
 
-[Video: Adicionando workers fargate a um cluster]()
+[Video: Adicionando workers fargate a um cluster](https://youtu.be/MLJMqhUz328)
 
 
 #### Cluster bom é cluster barato
@@ -89,7 +89,7 @@ MJ.
 
 Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista a solicitação acima. 
 
-[[Video: Cluster bom é cluster barato]()
+[[Video: Cluster bom é cluster barato](https://youtu.be/JPwrESdAkFA)
 
 ### completion: Quase pronto para execução
 
