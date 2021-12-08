@@ -89,7 +89,7 @@ MJ.
 
 Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista a solicitação acima. 
 
-[[Video: Cluster bom é cluster barato](https://youtu.be/JPwrESdAkFA)
+[Video: Cluster bom é cluster barato](https://youtu.be/JPwrESdAkFA)
 
 ### completion: Quase pronto para execução
 
