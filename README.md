@@ -59,8 +59,22 @@ A seguir você tem acesso a uma série de materiais teóricos que visam fornecer
 
 [Video: Adicionando workers fargate a um cluster](https://youtu.be/MLJMqhUz328)
 
+### O que é cluster autoscaler ####### NECESSÁRIO GRAVAR #######
 
-#### Cluster bom é cluster barato
+https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
+
+
+### O que é metrics server ####### NECESSÁRIO GRAVAR #######
+
+https://github.com/kubernetes-sigs/metrics-server
+
+
+### O que é (irsa) IAM Roles for Service Accounts ####### NECESSÁRIO GRAVAR #######
+
+https://docs.aws.amazon.com/pt_br/eks/latest/userguide/iam-roles-for-service-accounts.html
+
+
+#### task class 01: Cluster bom é cluster barato 
 
 O time de SRE recebeu o seguinte ticket para resolução:
 
@@ -93,7 +107,7 @@ Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista 
 
 ### completion: Quase pronto para execução
 
-A partir do projeto base disponível neste [aqui](playground/quase_pronto_para_execucao), complete a implementação deixando um cluster EKS "up", seus Workers como "Ready" e aptos a receberem cargas de trabalho.
+A partir do projeto base disponível [aqui](playground/quase_pronto_para_execucao), complete a implementação deixando um cluster EKS "up", seus Workers como "Ready" e aptos a receberem cargas de trabalho.
 
 ### conventional: Cluster bom é cluster barato: O retorno
 
@@ -113,3 +127,109 @@ o que puder enxugar ai do seu lado, mande bala.
 
 Cabe a você estudante, construir a solução apropriada para o ticket.
 
+#### task class 02: Crescei e multiplicai-vos
+
+
+O time de SRE recebeu o seguinte ticket para resolução:
+
+```
+Precisamos de dois ambientes kubernetes para desenvolvimento e teste de uma nova aplicação. Algumas caracteristicas:
+
+* ambiente de dev e qa
+* Baixo custo
+* Nenhum dado é armazenado do lado do servidor
+* Os ambientes precisam ser idênticos
+```
+
+## learning-tasks
+
+### imitation: Assista o vídeo e aprenda como criar clusters iguais para ambientes distintos
+
+Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista a solicitação acima. 
+
+[Video: Crescei e multiplicai-vos]()
+
+### completion: Quase pronto para execução
+
+A partir do projeto base disponível [aqui](playground/quase_pronto_para_execucao_2), complete a implementação deixando os clusters EKS "up", seus Workers como "Ready" e aptos a receberem cargas de trabalho.
+
+### conventional: Crescei e multiplicai-vos mais uma vez
+
+O time de SRE recebeu o seguinte ticket para resolução:
+
+```
+Precisamos de três ambientes kubernetes para desenvolvimento e teste de uma nova aplicação. Algumas caracteristicas:
+
+* ambiente de dev, qa e pre
+* Baixo custo para dev e qa, em pre eu preciso que ele esteja disponível sempre para alguns clientes testarem as aplicações.
+```
+
+Cabe a você estudante, construir a solução apropriada para o ticket.
+
+#### task class 03: Pronto para produção
+
+O time de SRE recebeu o seguinte ticket para resolução:
+
+```
+Olá,
+
+Precisamos de um ambiente produtivo para uma nova aplicação, essa aplicação lidará com pagamento instantâneo,
+em alguns momento poderá ter um consumo excessivo e para seguir o SLA, ela precisa lidar muito bem com adversidades.
+```
+
+## learning-tasks
+
+### imitation: Assista o vídeo e aprenda como criar um cluster Pronto para produção
+
+Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista a solicitação acima. 
+
+[Video: Pronto para produção]()
+
+### completion: Quase pronto para execução
+
+A partir do projeto base disponível [aqui](playground/quase_pronto_para_execucao_3), complete a implementação deixando os clusters EKS "up", seus Workers como "Ready" e aptos a receberem cargas de trabalho.
+
+### conventional: Muito pronto para produção
+
+O time de SRE recebeu o seguinte ticket para resolução:
+
+```
+Olá,
+
+Precisamos de um ambiente produtivo para algumas api's que estamos finalizando o desenvolvimento. Como iremos cobrar pelo
+uso, devemos mante-la disponível o maior tempo possível.
+```
+
+Cabe a você estudante, construir a solução apropriada para o ticket.
+
+
+#### task class 04: Olá Janelas
+
+O time de SRE recebeu o seguinte ticket para resolução:
+
+```
+Precisamos de um cluster kubernetes para executar uma aplicação em .net que estamos desenvolvendo.
+
+```
+
+## learning-tasks
+
+### imitation: Assista o vídeo e aprenda como criar um cluster Pronto para produção
+
+Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista a solicitação acima. 
+
+[Video: Olá Janelas]()
+
+### completion: Quase pronto para execução
+
+A partir do projeto base disponível [aqui](playground/quase_pronto_para_execucao_4), complete a implementação deixando os clusters EKS "up", seus Workers Windows como "Ready" e aptos a receberem cargas de trabalho.
+
+### conventional: Olá Janelas
+
+O time de SRE recebeu o seguinte ticket para resolução:
+
+```
+Precisamos de um cluster kubernetes para executar uma aplicação em .net core que estamos desenvolvendo. Ambiente dev e hmg.
+```
+
+Cabe a você estudante, construir a solução apropriada para o ticket.
