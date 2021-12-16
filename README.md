@@ -138,7 +138,7 @@ Precisamos de dois ambientes kubernetes para desenvolvimento e teste de uma nova
 * ambiente de dev e qa
 * Baixo custo
 * Nenhum dado é armazenado do lado do servidor
-* Os ambientes precisam ser idênticos
+* Os ambientes precisam ser idênticos e em redes segmentadas
 ```
 
 ## learning-tasks
@@ -151,7 +151,7 @@ Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista 
 
 ### completion: Quase pronto para execução
 
-A partir do projeto base disponível [aqui](playground/quase_pronto_para_execucao_2), complete a implementação deixando os clusters EKS "up", seus Workers como "Ready" e aptos a receberem cargas de trabalho.
+A partir do projeto base disponível [aqui](playground/crescei_e_multiplicai_vos), complete a implementação deixando os clusters EKS "up", seus Workers como "Ready" e aptos a receberem cargas de trabalho.
 
 ### conventional: Crescei e multiplicai-vos mais uma vez
 
@@ -161,7 +161,8 @@ O time de SRE recebeu o seguinte ticket para resolução:
 Precisamos de três ambientes kubernetes para desenvolvimento e teste de uma nova aplicação. Algumas caracteristicas:
 
 * ambiente de dev, qa e pre
-* Baixo custo para dev e qa, em pre eu preciso que ele esteja disponível sempre para alguns clientes testarem as aplicações.
+* Baixo custo para dev e qa, em pre eu preciso que ele esteja disponível sempre para alguns clientes testarem as aplicações. 
+* Cada ambiente em uma rede distinta
 ```
 
 Cabe a você estudante, construir a solução apropriada para o ticket.
@@ -174,7 +175,8 @@ O time de SRE recebeu o seguinte ticket para resolução:
 Olá,
 
 Precisamos de um ambiente produtivo para uma nova aplicação, essa aplicação lidará com pagamento instantâneo,
-em alguns momento poderá ter um consumo excessivo e para seguir o SLA, ela precisa lidar muito bem com adversidades.
+em alguns momento poderá ter um consumo excessivo e outros momentos, não.
+Para seguir o SLA, ela precisa lidar muito bem com falhas.
 ```
 
 ## learning-tasks
@@ -187,7 +189,7 @@ Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista 
 
 ### completion: Quase pronto para execução
 
-A partir do projeto base disponível [aqui](playground/quase_pronto_para_execucao_3), complete a implementação deixando os clusters EKS "up", seus Workers como "Ready" e aptos a receberem cargas de trabalho.
+A partir do projeto base disponível [aqui](playground/pronto_para_producao), complete a implementação deixando os clusters EKS "up", seus Workers como "Ready" e aptos a receberem cargas de trabalho.
 
 ### conventional: Muito pronto para produção
 
@@ -222,14 +224,14 @@ Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista 
 
 ### completion: Quase pronto para execução
 
-A partir do projeto base disponível [aqui](playground/quase_pronto_para_execucao_4), complete a implementação deixando os clusters EKS "up", seus Workers Windows como "Ready" e aptos a receberem cargas de trabalho.
+A partir do projeto base disponível [aqui](playground/ola_janelas), complete a implementação deixando os clusters EKS "up", seus Workers Windows como "Ready" e aptos a receberem cargas de trabalho.
 
 ### conventional: Olá Janelas
 
 O time de SRE recebeu o seguinte ticket para resolução:
 
 ```
-Precisamos de um cluster kubernetes para executar uma aplicação em .net core que estamos desenvolvendo. Ambiente dev e hmg.
+Precisamos de um cluster kubernetes para executar uma aplicação em .net que estamos desenvolvendo. Ambiente dev e hmg.
 ```
 
 Cabe a você estudante, construir a solução apropriada para o ticket.
