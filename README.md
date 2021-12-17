@@ -59,15 +59,15 @@ A seguir você tem acesso a uma série de materiais teóricos que visam fornecer
 
 [Video: Adicionando workers fargate a um cluster](https://youtu.be/MLJMqhUz328)
 
-### O que é metrics server ####### NECESSÁRIO GRAVAR #######
+### O que é metrics server
 
 [O que é metrics server]()
 
-### O que é cluster autoscaler ####### NECESSÁRIO GRAVAR #######
+### O que é cluster autoscaler
 
 [Video: O que é cluster autoscaler]()
 
-### O que é (irsa) IAM Roles for Service Accounts ####### NECESSÁRIO GRAVAR #######
+### O que é (irsa) IAM Roles for Service Accounts
 
 [O que é (irsa) IAM Roles for Service Accounts]()
 
