@@ -211,7 +211,7 @@ Estamos evoluindo uma aplicação monolítica e para isso precisamos de um clust
 
 O Manifesto com a aplicação pode ser obtida no link:
 
-https://github.com/zup-academy/curso-eks/blob/master/playground/yamls/windows-server-iis.yaml
+https://raw.githubusercontent.com/zup-academy/curso-eks/master/playground/yamls/windows-server-iis.yaml
 ```
 
 ## learning-tasks
