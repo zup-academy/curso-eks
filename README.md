@@ -59,20 +59,17 @@ A seguir você tem acesso a uma série de materiais teóricos que visam fornecer
 
 [Video: Adicionando workers fargate a um cluster](https://youtu.be/MLJMqhUz328)
 
-### O que é cluster autoscaler ####### NECESSÁRIO GRAVAR #######
-
-https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler
-
-
 ### O que é metrics server ####### NECESSÁRIO GRAVAR #######
 
-https://github.com/kubernetes-sigs/metrics-server
+[O que é metrics server]()
 
+### O que é cluster autoscaler ####### NECESSÁRIO GRAVAR #######
+
+[Video: O que é cluster autoscaler]()
 
 ### O que é (irsa) IAM Roles for Service Accounts ####### NECESSÁRIO GRAVAR #######
 
-https://docs.aws.amazon.com/pt_br/eks/latest/userguide/iam-roles-for-service-accounts.html
-
+[O que é (irsa) IAM Roles for Service Accounts]()
 
 #### task class 01: Cluster bom é cluster barato 
 
@@ -107,7 +104,7 @@ Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista 
 
 ### completion: Quase pronto para execução
 
-A partir do projeto base disponível [aqui](playground/quase_pronto_para_execucao), complete a implementação deixando um cluster EKS "up", seus Workers como "Ready" e aptos a receberem cargas de trabalho.
+A partir do projeto base disponível [aqui](playground/cluster_bom_e_cluster_barato), complete a implementação deixando um cluster EKS "up", seus Workers como "Ready" e aptos a receberem cargas de trabalho.
 
 ### conventional: Cluster bom é cluster barato: O retorno
 
