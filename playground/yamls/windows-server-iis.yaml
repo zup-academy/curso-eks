@@ -45,4 +45,3 @@ spec:
     tier: backend
     track: stable
   sessionAffinity: None
-  type: LoadBalancer

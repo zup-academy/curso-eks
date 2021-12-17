@@ -207,8 +207,11 @@ Cabe a você estudante, construir a solução apropriada para o ticket.
 O time de SRE recebeu o seguinte ticket para resolução:
 
 ```
-Precisamos de um cluster kubernetes para executar uma aplicação em .net que estamos desenvolvendo.
+Estamos evoluindo uma aplicação monolítica e para isso precisamos de um cluster kubernetes para executar alguns serviços em .net que estamos desenvolvendo.
 
+O Manifesto com a aplicação pode ser obtida no link:
+
+https://github.com/zup-academy/curso-eks/blob/master/playground/yamls/windows-server-iis.yaml
 ```
 
 ## learning-tasks
