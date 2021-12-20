@@ -61,15 +61,15 @@ A seguir você tem acesso a uma série de materiais teóricos que visam fornecer
 
 ### O que é metrics server
 
-[O que é metrics server]()
+[O que é metrics server](https://youtu.be/UMnOKvifDL8)
 
 ### O que é cluster autoscaler
 
-[Video: O que é cluster autoscaler]()
+[Video: O que é cluster autoscaler](https://youtu.be/25aoFF0G-qs)
 
 ### O que é (irsa) IAM Roles for Service Accounts
 
-[O que é (irsa) IAM Roles for Service Accounts]()
+[O que é (irsa) IAM Roles for Service Accounts](https://youtu.be/9GYf2bkqYOc)
 
 #### task class 01: Cluster bom é cluster barato 
 
@@ -144,13 +144,13 @@ Precisamos de dois ambientes kubernetes para desenvolvimento e teste de uma nova
 
 Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista a solicitação acima. 
 
-[Video: Crescei e multiplicai-vos]()
+[Video: Crescei e multiplicai-vos](https://youtu.be/_sxa-OW9ofA)
 
 ### completion: Quase pronto para execução
 
 A partir do projeto base disponível [aqui](playground/crescei_e_multiplicai_vos), complete a implementação deixando os clusters EKS "up", seus Workers como "Ready" e aptos a receberem cargas de trabalho.
 
-### conventional: Crescei e multiplicai-vos mais uma vez
+### conventional: Crescei e multiplicai-vos
 
 O time de SRE recebeu o seguinte ticket para resolução:
 
@@ -182,7 +182,7 @@ Para seguir o SLA, ela precisa lidar muito bem com falhas.
 
 Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista a solicitação acima. 
 
-[Video: Pronto para produção]()
+[Video: Pronto para produção](https://youtu.be/Pqh0lmAa6as)
 
 ### completion: Quase pronto para execução
 
@@ -220,7 +220,7 @@ https://raw.githubusercontent.com/zup-academy/curso-eks/master/playground/yamls/
 
 Assista o vídeo a seguir e acompanhe a resolução fornecida pelo especialista a solicitação acima. 
 
-[Video: Olá Janelas]()
+[Video: Olá Janelas](https://youtu.be/ay59ALg9ZvM)
 
 ### completion: Quase pronto para execução
 
