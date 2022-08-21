@@ -24,6 +24,9 @@ prontos para receberem cargas de trabalho Windows e Linux e muito mais.
 
 - Aprimorar construção de infraestrutura com Terraform 
 - Construir clusters eks gerenciados com Terraform para os mais diversos cenários
+- Adicionar escalabilidade a clusters eks
+- Habilitar cargas de trabalho Windows ao cluster
+- Habilitar a funcionalidade de nós servless (fargate) ao cluster
 
 ## descritivo-para-certificado
 
